@@ -20,9 +20,9 @@ R-Code latest version is: **InOUT_Tidyverse_v8.R**
 
 **Current Findings/Presentation:** 
 
-![Logistics%20Warehouse/Untitled%201.png](Logistics%20Warehouse/Untitled%201.png)
+![Logistics%20Warehouse/Untitled%201.png](Untitled%201.png)
 
-![Logistics%20Warehouse/Untitled%202.png](Logistics%20Warehouse/Untitled%202.png)
+![Logistics%20Warehouse/Untitled%202.png](Untitled%202.png)
 
 *Holding off hunting the ~522K but suspect it movement of Avg_mat_cost price change over time
 
@@ -46,7 +46,7 @@ Original Stock Query: SCRD_3031_CHARGES modified
 
 Used: **SLT_SCRD_INOUT_CHARGES_V3** with Expanded Modification of Transaction Group List (from 030, 031) to all in Definition Table
 
-![Logistics%20Warehouse/Untitled%203.png](Logistics%20Warehouse/Untitled%203.png)
+![Logistics%20Warehouse/Untitled%203.png](Untitled%203.png)
 
 v3 revision: Adj_Type is **added b/c 050 "Decrease" is not handle properly** —consistent with others—namely not made to be a negative Total Price (Special handle in R-code)
 
@@ -54,7 +54,7 @@ Location and Ship_CUst_Name1 is added to splice CS to E&M or Everett (See Append
 
 Sample Query Output Below— "Type" is Adjustment Type (D)ecrease or (I)ncrease
 
-![Logistics%20Warehouse/Untitled%204.png](Logistics%20Warehouse/Untitled%204.png)
+![Logistics%20Warehouse/Untitled%204.png](Untitled%204.png)
 
 **Overall Logic:** 
 
@@ -72,13 +72,13 @@ Update: We will simple purge IBU- 031 from the analyst, avoiding double counting
 
 **APPENDIX**
 
-![Logistics%20Warehouse/Untitled%205.png](Logistics%20Warehouse/Untitled%205.png)
+![Logistics%20Warehouse/Untitled%205.png](Untitled%205.png)
 
 BY Transaction Summarized
 
-![Logistics%20Warehouse/Untitled%206.png](Logistics%20Warehouse/Untitled%206.png)
+![Logistics%20Warehouse/Untitled%206.png](Untitled%206.png)
 
-![Logistics%20Warehouse/Untitled%207.png](Logistics%20Warehouse/Untitled%207.png)
+![Logistics%20Warehouse/Untitled%207.png](Untitled%207.png)
 
 [Lead Time And Shelf Age](https://www.notion.so/Lead-Time-And-Shelf-Age-6ced81bdbd2b45baa971a19981fde057)
 
